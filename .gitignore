@@ -1,0 +1,39 @@
+# Python runtime/cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE/editor state
+.idea/
+.vscode/
+
+# Generated benchmark and presentation artifacts
+outputs/
+tmp/
+tmp_ppt_contact/
+tmp_ppt_export/
+*.pptx
+
+# Large packaged archives and local backups
+*.zip
+*.rar
+*.7z
+*.tar
+*.tar.gz
+*_backup_*.pth
+
+# Local logs
+*.log
+JSBSim_output_main.txt
+
+# OS files
+Thumbs.db
+.DS_Store

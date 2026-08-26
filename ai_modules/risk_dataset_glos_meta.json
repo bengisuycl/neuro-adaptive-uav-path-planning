@@ -1,0 +1,18 @@
+{
+  "dataset_path": "risk_dataset_glos.csv",
+  "scenario_ids": [
+    "S1_Base",
+    "S2_Dense",
+    "S3_Long"
+  ],
+  "num_samples": 24000,
+  "feature_columns": [
+    "dist_norm",
+    "rel_alt_norm",
+    "slope",
+    "th_level"
+  ],
+  "label_column": "risk_label",
+  "dem_path": "/content/wcci_workspace/wcci_conference_project/dem_utm.tif",
+  "focus_prob": 0.9
+}

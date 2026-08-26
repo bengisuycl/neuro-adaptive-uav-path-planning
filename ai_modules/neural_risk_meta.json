@@ -1,0 +1,45 @@
+{
+  "feature_columns": [
+    "dist_norm",
+    "rel_alt_norm",
+    "slope",
+    "th_level"
+  ],
+  "label_column": "risk_label",
+  "x_mean": [
+    0.32631978392601013,
+    0.3862619698047638,
+    0.089922696352005,
+    0.8163174986839294
+  ],
+  "x_std": [
+    0.5391806960105896,
+    0.20938332378864288,
+    0.1347513198852539,
+    0.16430631279945374
+  ],
+  "target_transform": "log1p_div_scale",
+  "label_scale": 1.3361183404922485,
+  "dataset_path": "risk_dataset_glos.csv",
+  "validation_loss": 0.06121686473488808,
+  "best_epoch": 57,
+  "prediction_min": 3.3415041400530754e-08,
+  "prediction_max": 1.4654107093811035,
+  "prediction_mean": 0.8007138967514038,
+  "target_min": 0.0,
+  "target_max": 1.674770712852478,
+  "target_mean": 0.7628326416015625,
+  "scenario_ids": [
+    "S1_Base",
+    "S2_Dense",
+    "S3_Long"
+  ],
+  "hidden_dims": [
+    128,
+    128,
+    64
+  ],
+  "batch_size": 256,
+  "epochs_requested": 320,
+  "early_stopping_patience": 40
+}
