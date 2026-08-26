@@ -1,4 +1,4 @@
-# WCCI Conference Project
+# Thesis Project
 
 This repository contains a thesis-oriented research prototype for DEM-based, threat-aware mission planning of a fixed-wing aircraft. The framework evaluates classical and learning-assisted planners under common terrain, threat, aircraft, and benchmark constraints.
 
