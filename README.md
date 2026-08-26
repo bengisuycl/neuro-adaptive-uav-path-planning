@@ -62,6 +62,7 @@ Run the GUI:
 ```powershell
 python -m wcci_conference_project.gui_app
 ```
+The output graphs of the project: https://drive.google.com/drive/folders/17E4MzYATfJpY9WXQEgKdj-EHvqw6RPUy?usp=sharing
 
 ## Academic Positioning
 
